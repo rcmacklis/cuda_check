@@ -1,0 +1,11 @@
+[project]
+name = "cuda-check"
+version = "0.1.0"
+description = "PyTorch CUDA availability check script"
+requires-python = "==3.10.20"
+dependencies = [
+    "torch",
+]
+
+[tool.uv]
+package = false
